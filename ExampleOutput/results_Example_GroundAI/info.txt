@@ -1,0 +1,26 @@
+# RUNNING WITH AIMforGW.ParamEstimator_GroundAII
+# multiprocessing setup
+4 # Ncores
+# inputs for GW source
+25.0 # detector-frame chirp mass [Msol]]
+1.15 # source_q, mass ratio (m_1/m_2)
+100.0 # source_dL, luminosity distance [Mpc]
+0.0 # source_phi0, phase of the GW signal at fGWmin
+0.0 # source_tc, time of merger, measured from the solar equinox [seconds]
+0.7853981633974483 # source_iota, angle between sky localization and orbital momentum of the binary [rad]
+1.0471975511965976 # source_psi, polarization angle [rad]
+1.0471975511965976 # source right ascension [rad]
+0.11519173063162577 # source declination [rad]
+# inputs for detector
+0.45 # detector_fGWmin, smallest frequency considered [Hz]
+12.0 # detector_fGWmax, smallest frequency considered [Hz]
+0.0 # detector_t0, reference time at which to define the location of the detector [seconds after vernal equinox]
+4.471533543609472 # detector_RA0, right ascension of detector 0 at t0 [rad]
+0.7749261878854823 # detector_DEC0, declination of detector 0 at t0 [rad]
+1.9722220547535925 # detector_RA0, right ascension of detector 1 at t0 [rad]
+0.4886921905584123 # detector_DEC0, declination of detector 1 at t0 [rad]
+0.3508111796508603 # detector_RA0, right ascension of detector 2 at t0 [rad]
+1.13271868454432 # detector_DEC0, declination of detector 2 at t0 [rad]
+# inputs computation
+3.5 # PN_order_phase
+3.0 # PN_order_amplitude

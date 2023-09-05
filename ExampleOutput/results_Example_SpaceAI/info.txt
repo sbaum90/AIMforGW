@@ -1,0 +1,25 @@
+# RUNNING WITH AIMforGW.ParamEstimator_SpaceAI
+# multiprocessing setup
+4 # Ncores
+# inputs for GW source
+25.0 # detector-frame chirp mass [Msol]]
+1.15 # source_q, mass ratio (m_1/m_2)
+100.0 # source_dL, luminosity distance [Mpc]
+0.0 # source_phi0, phase of the GW signal at fGWmin
+0.0 # source_tc, time of merger, measured from the solar equinox [seconds]
+0.7853981633974483 # source_iota, angle between sky localization and orbital momentum of the binary [rad]
+1.0471975511965976 # source_psi, polarization angle [rad]
+1.0471975511965976 # source right ascension [rad]
+0.11519173063162577 # source declination [rad]
+# inputs for detector
+0.03 # detector_fGWmin, smallest frequency considered [Hz]
+4.0 # detector_fGWmax, smallest frequency considered [Hz]
+31558149.54 # detector_max_measurement_time, max length of signal considered [seconds]
+8440000.0 # detector_orbit_R_cb, radius of the orbit of the center of the baseline around Earth [m]
+20000000.0 # detector_orbit_R_sat, radius of the orbit of the satellite around Earth [m], for period
+7889537.385 # detector_orbit_t0, reference time for fixing orbit of satellite around Earth [seconds]
+1.5707963267948966 # detector_orbit_RA0, right ascension of the satellite at t0 [rad]
+-0.40840704496667307 # detector_orbit_DEC0, declination of the satellite at t0 [rad]
+# inputs computation
+3.5 # PN_order_phase
+3.0 # PN_order_amplitude
