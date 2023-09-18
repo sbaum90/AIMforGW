@@ -1,7 +1,7 @@
 # AIMforGW
 Atom Interferometer detectors in the Mid-band for Gravitational Waves: fisher-matrix parameter reconstruction forecast
 
-If you use **AIMforGW** for your work, please cite [arXiv:2309.XXXX](https://arxiv.org/abs/2309.XXXXX).
+If you use **AIMforGW** for your work, please cite [arXiv:2309.07952](https://arxiv.org/abs/2309.07952).
 
 AIMforGW is a Fisher-matrix forecast code for parameter reconstruction of gravitational wave (GW) signals from compact binaries generated during the inspiral phase with single-baseline (e.g., atom-interferometry based) detectors.
 
